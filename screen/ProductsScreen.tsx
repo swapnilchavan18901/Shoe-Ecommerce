@@ -1,4 +1,4 @@
-import {View, Text, Image, StyleSheet, FlatList} from 'react-native';
+import {View, Image, StyleSheet, FlatList} from 'react-native';
 import React from 'react';
 import products from '../constants/data';
 

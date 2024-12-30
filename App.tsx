@@ -10,11 +10,13 @@ import {StyleSheet, View} from 'react-native';
 
 import './global.css';
 import ProductsScreen from './screen/ProductsScreen';
+import ProductDetailsScreen from './screen/ProductDetailsScreen';
 
 function App(): React.JSX.Element {
   return (
     <View style={styles.Container}>
-      <ProductsScreen />
+      {/* <ProductsScreen /> */}
+      <ProductDetailsScreen />
     </View>
   );
 }
